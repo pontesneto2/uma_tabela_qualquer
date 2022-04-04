@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Untitled Document</title>
+    </head>
+
+    <body>
+        <table class="container-table">
+            
+            <thead>
+            <!--CABEÇALHO--> 
+            <tr>
+                <td colspan="3" class="imagem-sda" style="text-align: start !important;">{var_imagem_sda}</td>
+                <td colspan="3" class="title">Projeto de Venda</td>
+            </tr>
+            </thead>
+        
+            <tbody>
+            <!--Bloco1-->    
+            <tr>
+                <td class="linetable" style="text-align: end !important; background-color: #eeeeee;"><strong>Projeto de Venda Nº:</strong></td>
+                <td colspan="2" class="linetable" style="text-align: start !important;">{var_proj_venda_1}</td> 
+            </tr>
+
+            <tr>
+                <td colspan="6"></td>
+            </tr>
+            
+            <!--Bloco2-->
+            <tr>
+                <td colspan="1" class="linetable" style="background-color: #eeeeee;"><strong>Código</strong></td>
+                <td colspan="2" class="linetable" style="background-color: #eeeeee;"><strong>Produtor</strong></td>
+                <td colspan="2" class="linetable" style="background-color: #eeeeee;"><strong>CPF/CNPJ</strong></td>
+                <td colspan="1" class="linetable" style="text-align: start !important; background-color: #eeeeee;"><strong>Nº da Chamada Pública</strong></td>
+            </tr>
+            <tr>    
+                <td colspan="1" class="linetable">{var_produtor}</td>
+                <td colspan="2" class="linetable">{var_cpf}</td>
+                <td colspan="2" class="linetable">{var_cpf_cnpj}</td>
+                <td colspan="1" class="linetable">{var_numero}</td>
+            </tr>
+            
+            <!--Bloco3-->
+            <tr>
+                <td colspan="2" class="linetable" style="background-color: #eeeeee;"><strong>Secretaria</strong></td>
+                <td colspan="1" class="linetable" style="background-color: #eeeeee;"><strong>Município</strong></td>
+                <td colspan="1" class="linetable" style="background-color: #eeeeee;"><strong>Escola</strong></td>
+                <td colspan="2" class="linetable" style="background-color: #eeeeee;"><strong>Cooperativa</strong></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" class="linetable">{var_secretaria}</td>
+                <td colspan="1" class="linetable">{var_municipio}</td>
+                <td colspan="1" class="linetable">{var_escola}</td>
+                <td colspan="2" class="linetable">{var_cooperativa}</td>
+            </tr>
+            
+            <!--Bloco4-->
+            <tr>
+                <td colspan="5" class="linetable" style="text-align: end !important; background-color: #eeeeee;"><strong>Valor Total (R$)</strong></td>
+                <td class="linetable" style="text-align: center !important; background-color: #c7c7c7;"><strong>{var_valor_total}</strong></td>
+            </tr>
+            
+            <tr>
+                <td colspan="6"></td>
+            </tr>
+
+            <tr>
+                <td class="linetable" style="background-color: #eeeeee; width: 20px;">Código</td>
+                <td class="linetable" style="background-color: #eeeeee; width: 400px;">Produto</td>
+                <td class="linetable" style="background-color: #eeeeee; width: 20px;">UND</td>
+                <td class="linetable" style="background-color: #eeeeee; width: 20px;">QTD</td>
+                <td class="linetable" style="background-color: #eeeeee; width: 20px;">Valor Unit.(R$)</td>
+                <td class="linetable" style="background-color: #eeeeee; width: 20px;"><strong>Valor(R$)</strong></td>
+            </tr>
+            
+            <tr>
+                <td class="linetable">*Colocar var*</td>
+                <td class="linetable">{var_nua}</td>
+                <td class="linetable">{var_umd}</td>
+                <td class="linetable">{var_quantidade}</td>
+                <td class="linetable">*colocar var*</td>
+                <td class="linetable"> {var_valor}</td>
+            </tr>
+            </tbody>
+        
+        </table>
+    
+        <!-- <p>&nbsp;</p>
+        <p>&nbsp;</p> -->
+
+    </body>
+</html>
+
+
+
+<style>
+
+* {
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+
+.container-table{
+    border: solid 3px #000000;
+}
+
+.imagem-sda{
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.linetable {
+    border: solid 1px #000000;
+    text-align: center;
+    height: 50px;
+    font-size: 16px;
+}
+
+
+
+</style>
