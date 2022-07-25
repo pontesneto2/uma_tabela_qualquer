@@ -1,0 +1,28 @@
+* {
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+
+.container-table{
+    border: solid 3px #000000;
+}
+
+.imagem-sda{
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.linetable {
+    border: solid 1px #000000;
+    text-align: center;
+    height: 50px;
+    font-size: 16px;
+}
